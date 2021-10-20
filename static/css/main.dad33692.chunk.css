@@ -38,6 +38,22 @@
     font-family: "Brandbe Regular";
     src: url(../../static/media/Brandbe-Regular.ttf);
 }
+@font-face {
+    font-family: "Bebas Regular";
+    src: url();
+}
+@font-face {
+    font-family: "Reload Regular";
+    src: url(../../static/media/ReloadAlt-Regular.ttf);
+}
+@font-face {
+    font-family: "Bebas Expanded";
+    src: url(../../static/media/BebasNeuePro-ExpandedRegular.ttf);
+}
+@font-face {
+    font-family: "Brandbe Bold";
+    src: url(../../static/media/Brandbe-Bold.ttf);
+}
 #root,
 body,
 html {
@@ -46,7 +62,7 @@ html {
 }
 body {
     margin: 0;
-    font-family: "Brandbe Regular", "Bebas Neue Regular", "Bebas Neue Regular", "Roboto", sans-serif;
+    font-family: "Bebas Expanded", "Bebas Neue Regular", "Bebas Neue Regular", "Roboto", sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     letter-spacing: 3px;
@@ -500,12 +516,14 @@ img.weapon.active {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 26px;
+    font-size: 45px;
+    font-family: "Brandbe Regular";
     color: var(--white-full);
 }
 .players_alive .counter_container .team_counter {
-    font-weight: 600;
-    font-size: 30px;
+    font-weight: 600px;
+    font-size: 40px;
+    font-family: "Brandbe Regular";
     background-color: var(--main-panel-color);
 }
 .players_alive .title_container {
@@ -514,11 +532,13 @@ img.weapon.active {
     text-align: center;
     height: 20px;
     width: 210px;
-    font-size: 14px;
+    font-size: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: var(--main-panel-color);
+    font-family: "Brandbe Regular";
+    font-weight: 900px;
 }
 .players_alive .counter_container .CT {
     color: var(--main-ct);
@@ -750,12 +770,13 @@ img.weapon.active {
 }
 #matchbar .team-name {
     width: 320px;
-    font-weight: 600;
-    font-size: 45px;
-    letter-spacing: 5px;
+    font-weight: 300;
+    font-size: 50px;
+    letter-spacing: 8px;
     background-color: var(--sub-panel-color);
     white-space: nowrap;
     text-overflow: ellipsis;
+    font-family: "Brandbe Bold";
 }
 #matchbar .team-name,
 #matchbar .team .logo {
@@ -771,8 +792,8 @@ img.weapon.active {
     background-color: var(--logo-background-color);
 }
 #matchbar .team .logo img {
-    max-width: 90%;
-    max-height: 90%;
+    max-width: 100%;
+    max-height: 100%;
 }
 #matchbar .team-score {
     width: 70px;
@@ -925,6 +946,7 @@ img.weapon.active {
     width: 100%;
     justify-content: center;
     font-weight: 700;
+    font-family: "Brandbe Regular";
 }
 .round_display {
     height: 20px;
@@ -1041,6 +1063,7 @@ img.weapon.active {
 }
 .observed .main_row .username_container .username {
     font-size: 40px;
+    font-family: "Brandbe Regular";
 }
 .observed .main_row .username_container .real_name,
 .observed .main_row .username_container .username {
@@ -1143,7 +1166,7 @@ img.weapon.active {
     font-size: 24px;
     padding-left: 4px;
     padding-top: 0px;
-    letter-spacing: 4px;
+    letter-spacing: 2px;
 }
 .observed .stats_row .obs_slot {
     width: 20px;
@@ -1238,7 +1261,7 @@ img.weapon.active {
     height: 100%;
     display: flex;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 23px;
     align-items: center;
     justify-content: center;
     margin-top: 2px;
@@ -1270,11 +1293,11 @@ img.weapon.active {
     height: 100%;
     width: 46px;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: right;
     padding-right: 4px;
 }
 .observed .stats_row .ammo .ammo_icon_container img {
-    max-width: 30px;
+    max-width: 0px;
 }
 .observed .stats_row .ammo .ammo_knife {
     display: flex;
@@ -1310,6 +1333,7 @@ img.weapon.active {
 }
 .observed .stats_row .ammo .ammo_counter .ammo_clip {
     justify-content: flex-end;
+    
 }
 .observed .stats_row .ammo .ammo_counter .ammo_reserve {
     justify-content: flex-start;
@@ -1784,7 +1808,7 @@ html {
     align-items: flex-end;
     justify-content: center;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 20px;
 }
 .moneybox .money_container .value {
     flex: 1 1;
@@ -1792,7 +1816,7 @@ html {
     align-items: center;
     justify-content: center;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 21px;
     color: var(--white-full);
 }
 .moneybox .loss_container {
@@ -2344,8 +2368,9 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 600;
+    font-family: "Brandbe Regular";
 }
 .text_holder.T {
     color: var(--main-t);
