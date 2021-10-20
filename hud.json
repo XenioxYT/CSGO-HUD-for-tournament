@@ -1,0 +1,12 @@
+{
+    "name":"TEST HUD 1",
+    "version":"1.0.4",
+    "author":"Komodo",
+    "legacy": false,
+    "radar": true,
+    "killfeed": true,
+    "boltobserv":{
+        "css":true,
+        "maps":true
+    }
+}
