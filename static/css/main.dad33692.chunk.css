@@ -223,6 +223,8 @@ code {
     flex: 1 1;
     display: flex;
     position: relative;
+    background-color: transparent;
+    background-image: url(../media/Playerbackground.png);
 }
 .teambox .player .row.obs {
     background-color: var(--white-dull);
@@ -274,6 +276,7 @@ code {
     color: var(--white-full);
     font-weight: 600;
     font-size: 18px;
+    background-color: var(--main-panel-color);
 }
 .teambox.left .player .row .health {
     padding-left: 4px;
