@@ -211,6 +211,8 @@ code {
     flex-direction: column;
     flex: 1 1;
     min-width: 0;
+    background-image: url(../media/playerbackground.png);
+    background-size: 450%;
 }
 .teambox .player .observing {
     width: 10px;
