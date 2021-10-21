@@ -224,7 +224,8 @@ code {
     display: flex;
     position: relative;
     background-color: transparent;
-    background-image: url(../media/Playerbackground.png);
+    background-image: url(../media/playerbackgroundresize.png);
+    background-size: 100%;
 }
 .teambox .player .row.obs {
     background-color: var(--white-dull);
