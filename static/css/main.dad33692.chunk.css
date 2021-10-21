@@ -538,7 +538,7 @@ img.weapon.active {
     align-items: center;
     justify-content: center;
     background-color: var(--main-panel-color);
-    font-family: "Brandbe Regular";
+    font-family: "Bebas Regular";
     font-weight: 900px;
 }
 .players_alive .counter_container .CT {
@@ -1322,7 +1322,7 @@ img.weapon.active {
 }
 .observed .stats_row .ammo .ammo_counter {
     display: flex;
-    font-size: 19px;
+    font-size: 15px;
     font-weight: 600;
     width: 78px;
     padding-right: 6px;
@@ -1340,7 +1340,7 @@ img.weapon.active {
 }
 .observed .stats_row .ammo .ammo_counter .ammo_reserve {
     justify-content: flex-start;
-    padding-top: 8px;
+    padding-top: 11px;
 }
 #radar_maps_container {
     position: fixed;
