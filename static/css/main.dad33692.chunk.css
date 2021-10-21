@@ -40,7 +40,7 @@
 }
 @font-face {
     font-family: "Bebas Regular";
-    src: url();
+    src: url(../../static/media/BebasNeue-Regular.ttf);
 }
 @font-face {
     font-family: "Reload Regular";
