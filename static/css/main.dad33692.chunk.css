@@ -772,7 +772,7 @@ img.weapon.active {
     width: 320px;
     font-weight: 300;
     font-size: 50px;
-    letter-spacing: 8px;
+    letter-spacing: 0px;
     background-color: var(--sub-panel-color);
     white-space: nowrap;
     text-overflow: ellipsis;
