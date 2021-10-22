@@ -54,6 +54,10 @@
     font-family: "Brandbe Bold";
     src: url(../../static/media/Brandbe-Bold.ttf);
 }
+@font-face {
+    font-family: "Bebas Neue SemiExp Bold";
+    src: url(../../static/media/BebasNeuePro-SemiExpBold.ttf);
+}
 #root,
 body,
 html {
@@ -316,12 +320,13 @@ code {
     font-size: 18px;
     text-overflow: ellipsis;
     white-space: nowrap;
+    font-family: "Bebas Neue SemiExp Bold";
 }
 .teambox.left .player .row .username {
-    padding-left: 5px;
+    padding-left: 10px;
 }
 .teambox.right .player .row .username {
-    padding-right: 5px;
+    padding-right: 10px;
 }
 .teambox .player.dead .row .username {
     color: var(--white-half);
@@ -670,6 +675,9 @@ img.weapon.active {
 .burning.hide,
 .flashed.hide {
     display: none;
+}
+.matchbar {
+    background: url(../media/Playerbackground.png);
 }
 #matchbar {
     display: flex;
@@ -1055,6 +1063,7 @@ img.weapon.active {
     justify-content: center;
     flex-direction: column;
     background-color: var(--main-panel-color);
+    /*background-image: url(../media/Playerbackground.png);*/
 }
 .observed.T .main_row .username_container .username,
 .observed.T .stats_row .ammo .ammo_counter .ammo_reserve {
@@ -1066,8 +1075,9 @@ img.weapon.active {
 }
 .observed .main_row .username_container .username {
     font-size: 35px;
-    font-family: "Bebas Expanded";
+    font-family: "Bebas Neue SemiExp Bold";
     text-transform: initial;
+    letter-spacing: 1px;
 }
 .observed .main_row .username_container .real_name,
 .observed .main_row .username_container .username {
@@ -1080,7 +1090,8 @@ img.weapon.active {
     justify-content: center;
 }
 .observed .main_row .username_container .real_name {
-    font-size: 10px;
+    font-size: 12px;
+    font-family: "Bebas Regular";
 }
 .observed .main_row {
     font-weight: 600;
@@ -1231,9 +1242,9 @@ img.weapon.active {
     background-color: var(--sub-panel-color);
 }
 .observed .stats_row .round_kills .round_kills_text {
-    width: 20px;
+    width: 0px;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 0px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1248,7 +1259,7 @@ img.weapon.active {
     justify-content: center;
 }
 .observed .stats_row .round_kills .skull_icon img {
-    max-height: 50px;
+    max-height: 0px;
     max-width: 18px;
 }
 .observed .stats_row .statistics {
@@ -1688,6 +1699,8 @@ html {
     transition: all 0.5s;
     background-color: var(--sub-panel-color);
     margin-bottom: 10px;
+    background-image: url(../media/Playerbackground.png);
+    background-size: 250%;
 }
 .sidebox {
     align-items: center;
