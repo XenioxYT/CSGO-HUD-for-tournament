@@ -1090,8 +1090,9 @@ img.weapon.active {
     justify-content: center;
 }
 .observed .main_row .username_container .real_name {
-    font-size: 12px;
+    font-size: 11px;
     font-family: "Bebas Regular";
+    letter-spacing: 3px;
 }
 .observed .main_row {
     font-weight: 600;
