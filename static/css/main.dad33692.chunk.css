@@ -2060,6 +2060,7 @@ html {
     color: var(--white-full);
     font-size: 13px;
     font-weight: 600;
+    background-image: url(../media/Playerbackground.png);
 }
 .map_series_container .title_bar div {
     width: 95px;
