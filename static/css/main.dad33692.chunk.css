@@ -1,10 +1,10 @@
 @font-face {
     font-family: "Proxima Nova Alt Light";
-    src: url("../../static/media/ProximaNova-Regular.410504d4.otf") format("opentype");
+    src: url(../../static/media/ProximaNova-Regular.410504d4.otf) format("opentype");
 }
 @font-face {
     font-family: "Proxima Nova Regular";
-    src: url("../../static/media/ProximaNova-Regular.410504d4.otf") format("opentype");
+    src: url(../../static/media/ProximaNova-Regular.410504d4.otf) format("opentype");
 }
 @font-face {
     font-family: "Proxima Nova Regular";
@@ -53,10 +53,6 @@
 @font-face {
     font-family: "Brandbe Bold";
     src: url(../../static/media/Brandbe-Bold.ttf);
-}
-@font-face {
-    font-family: "Bebas Neue SemiExp Bold";
-    src: url(../../static/media/BebasNeuePro-SemiExpBold.ttf);
 }
 #root,
 body,
@@ -320,13 +316,12 @@ code {
     font-size: 18px;
     text-overflow: ellipsis;
     white-space: nowrap;
-    font-family: "Bebas Neue SemiExp Bold";
 }
 .teambox.left .player .row .username {
-    padding-left: 10px;
+    padding-left: 5px;
 }
 .teambox.right .player .row .username {
-    padding-right: 10px;
+    padding-right: 5px;
 }
 .teambox .player.dead .row .username {
     color: var(--white-half);
@@ -676,9 +671,6 @@ img.weapon.active {
 .flashed.hide {
     display: none;
 }
-.matchbar {
-    background: url(../media/Playerbackground.png);
-}
 #matchbar {
     display: flex;
     flex-direction: row;
@@ -949,7 +941,8 @@ img.weapon.active {
 .timer_display {
     height: 50px;
     align-items: flex-end;
-    font-size: 34px;
+    font-size: 40px;
+    font-family: "Bebas Expanded";
 }
 .round_display,
 .timer_display {
@@ -957,12 +950,14 @@ img.weapon.active {
     width: 100%;
     justify-content: center;
     font-weight: 700;
-    font-family: "Brandbe Regular";
 }
 .round_display {
-    height: 20px;
+    font-family: "Proxima Nova Alt Light";
+    height: 12px;
     align-items: flex-start;
-    font-size: 14px;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: -0.01px;
     color: var(--white-full);
 }
 .bg,
@@ -1063,7 +1058,6 @@ img.weapon.active {
     justify-content: center;
     flex-direction: column;
     background-color: var(--main-panel-color);
-    /*background-image: url(../media/Playerbackground.png);*/
 }
 .observed.T .main_row .username_container .username,
 .observed.T .stats_row .ammo .ammo_counter .ammo_reserve {
@@ -1075,9 +1069,8 @@ img.weapon.active {
 }
 .observed .main_row .username_container .username {
     font-size: 35px;
-    font-family: "Bebas Neue SemiExp Bold";
+    font-family: "Bebas Expanded";
     text-transform: initial;
-    letter-spacing: 1px;
 }
 .observed .main_row .username_container .real_name,
 .observed .main_row .username_container .username {
@@ -1090,9 +1083,7 @@ img.weapon.active {
     justify-content: center;
 }
 .observed .main_row .username_container .real_name {
-    font-size: 11px;
-    font-family: "Bebas Regular";
-    letter-spacing: 3px;
+    font-size: 10px;
 }
 .observed .main_row {
     font-weight: 600;
@@ -1243,9 +1234,9 @@ img.weapon.active {
     background-color: var(--sub-panel-color);
 }
 .observed .stats_row .round_kills .round_kills_text {
-    width: 0px;
+    width: 20px;
     font-weight: 600;
-    font-size: 0px;
+    font-size: 18px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1260,7 +1251,7 @@ img.weapon.active {
     justify-content: center;
 }
 .observed .stats_row .round_kills .skull_icon img {
-    max-height: 0px;
+    max-height: 50px;
     max-width: 18px;
 }
 .observed .stats_row .statistics {
@@ -1700,8 +1691,6 @@ html {
     transition: all 0.5s;
     background-color: var(--sub-panel-color);
     margin-bottom: 10px;
-    background-image: url(../media/Playerbackground.png);
-    background-size: 250%;
 }
 .sidebox {
     align-items: center;
@@ -2060,7 +2049,6 @@ html {
     color: var(--white-full);
     font-size: 13px;
     font-weight: 600;
-    background-image: url(../media/Playerbackground.png);
 }
 .map_series_container .title_bar div {
     width: 95px;
@@ -2389,9 +2377,10 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 28px;
+    font-size: 29px;
     font-weight: 600;
     font-family: "Brandbe Regular";
+    letter-spacing: 3px;
 }
 .text_holder.T {
     color: var(--main-t);
