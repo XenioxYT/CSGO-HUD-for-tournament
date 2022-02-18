@@ -103,8 +103,10 @@ code {
     --color-defuse: #2222f2;
     --main-t: var(--color-new-t);
     --main-ct: var(--color-new-ct);
-    --ct-left-bar-color: rgb(25,25,25);
-    --t-right-bar-color: rgb(25,25,25);
+    /* --ct-left-bar-color: rgb(25,25,25);
+    --t-right-bar-color: rgb(25,25,25); */
+    --ct-left-bar-color: var(--color-new-ct);
+    --t-right-bar-color: var(--color-new-t);
     --logo-background-color: rgb(25,25,25);
     --score-background-color: rgb(25,25,25);
     --observer-bar-ct-color: rgba(0,0,0,0);
